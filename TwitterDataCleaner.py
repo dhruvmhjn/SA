@@ -32,6 +32,6 @@ tweets['following'] = map(lambda tweet: tweet['user']['following'] if 'user' in 
 # tweets['favorite_count'] = map(lambda tweet: tweet['favorite_count'], tweets_data)
 # tweets['lang'] = map(lambda tweet: tweet['lang'], tweets_data)
 # if k1 in d and k2 in d[k1]
-tweets['country'] = map(lambda tweet: tweet['place']['country'] if 'place' in tweet and 'country' in tweet['place'] else None, tweets_data)
+# tweets['country'] = map(lambda tweet: tweet['place']['country'] if 'place' in tweet and 'country' in tweet['place'] else None, tweets_data)
 
 print (tweets)
